@@ -1,0 +1,39 @@
+Afp labor I.
+-2.gyak-
+köv.spec.:
+kik fogják használni a szoftvert?
+használatának feltételei (pl.:regisztrálni kell a rendszerbe)
+
+Kérdések:
+	- Célcsoport
+		- Eger környéki épület, de több üzlet is elképzelhető
+	- Épületek száma
+		- 2 Egeren belül
+	- Tárolandó adatok
+		- Felhasználó:
+			név
+			cím
+			telefonszám
+			+ telefonszám azonosítás, ha a cím nem változik
+	- Szolgáltatások
+		- statisztika az helyi és a kiszállított ételekről statisztika
+		- euró a boltban, ami beállítható, kiszállításnál csak forint, bankkártyás lehetőség amit jelezni kell előre
+		- egyéb fizetési módok is elérhetőek legyenek
+	- Termék jellemzők
+		- Típusok
+			- Étlap, ami frissíthető legyen a cég részéről.
+			- Ételek elfogytak és ezt kommunikálni kell a user felé is.
+		- Kiadások
+			kiadások és bevételek
+				havonta a hr-nek, pdf-be vagy ami megoldható
+				éves statisztika, pdf-be vagy ami megoldható 
+				napi statisztika, admin felületen
+				statisztika névtelen kell legyen
+	- Személyi nyilvántartás
+		- user mit rendelt, ízlése alapján ajánlatok.
+		- legalább 10 ezer forintért rendelnek és 10%-ot kapnak a kövi hónapban az összes rendelésnél.
+	- Könyvelés
+
+	- Ügyfél nyivántartás
+	
+	- Webes alkalmazás
