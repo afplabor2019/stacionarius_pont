@@ -1,0 +1,32 @@
+4.: Kapcsolódó pályázatok, törvények, rendeletek, szabályok és szabványok.
+2016. évi XCIII. törvény a szerzoi jogok és a szerzoi joghoz kapcsolódó jogok közös kezelésérol
+1997. évi CLV. törvény a fogyasztóvédelemrol
+1999. évi LXXVI. törvény a szerzoi jogról
+210/2009. (IX. 29.) Korm. rendelet a kereskedelmi tevékenységek végzésének feltételeirol
+AZ EURÓPAI PARLAMENT ÉS A TANÁCS 1169/2011/EU RENDELETE (2011. október 25.)
+A természetes személyeknek a személyes adatok kezelése tekintetében történo
+védelmérol és az ilyen adatok szabad áramlásáról, valamint a 95/46/EK rendelet hatályon
+kívül helyezésérol (általános adatvédelmi rendelet) AZ EURÓPAI PARLAMENT ÉS A TANÁCS
+(EU) 2016/679 RENDELETE (2016. április 27.)
+– 2011. évi CXII. törvény – az információs önrendelkezési jogról és az információszabadságról
+(a továbbiakban: Infotv.)
+– 2001. évi CVIII. törvény – az elektronikus kereskedelmi szolgáltatások, valamint az
+információs társadalommal összefüggo szolgáltatások egyes kérdéseirol (foképp a 13/A. §-
+a)
+– 2008. évi XLVII. törvény – a fogyasztókkal szembeni tisztességtelen kereskedelmi gyakorlat
+tilalmáról;
+– 2008. évi XLVIII. törvény – a gazdasági reklámtevékenység alapveto feltételeirol és egyes
+korlátairól (különösen a 6.§-a)
+– 2005. évi XC. törvény az elektronikus információszabadságról
+– 2003. évi C. törvény az elektronikus hírközlésrol (kifejezetten a 155.§-a)
+– 16/2011. sz. vélemény a viselkedésalapú online reklám bevált gyakorlatára vonatkozó
+EASA/IAB-ajánlásról
+
+7.: Követelménylista
+Tárolandó adatok az oldalon regisztráltakról: Név, cím, telefonszám + annak azonosítása
+Legyen feltuntetve, hogy a boltban lehetoség van euróval is fizetni kiszállításnál viszont csak forinttal vagy elore jelezve bankkártyával, valamint lehetové tenni egyéb fizetési módokat.
+Az oldalon megtalálható kell legyen egy étlap amely frissítheto a cég részérol valamint jelezze a cégnek, hogy ha elfogyott egy adott étel.
+Az oldalnak tudnia kell statisztikát készítenie a helyben fogyaszott illetve a kizsálított ételekrol, nyomonkövetni a havi kiadásokat és bevételeket valamint azt letölthetové tenni lehetoleg pdf formátumba. Hasonló képen egy éves statisztika és egy napi statisztika amely az admin felületen elérheto. A statisztika szigorúan névtelen kell legyen!
+Szükség van egy nyilvántartásra a felhasználók rendelésérol valamint az adott felhasználó ízlésének megfelelo ajánlatokat kapjon és 10 ezer forint után a következo 1 hónapban 10% kedvezményt kapjon.
+Jogosultások: Boltvezeto: Teljes jogosultság, az oldalon található adatok változtatása valamint a dolgozók státuszának és adatainak módosítása. 
+	      Admin: Kizárólag az oldalon található adatok módosítása.
