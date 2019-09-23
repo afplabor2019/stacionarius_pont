@@ -1,32 +1,33 @@
-4.: Kapcsolódó pályázatok, törvények, rendeletek, szabályok és szabványok.
-2016. évi XCIII. törvény a szerzoi jogok és a szerzoi joghoz kapcsolódó jogok közös kezelésérol
-1997. évi CLV. törvény a fogyasztóvédelemrol
-1999. évi LXXVI. törvény a szerzoi jogról
-210/2009. (IX. 29.) Korm. rendelet a kereskedelmi tevékenységek végzésének feltételeirol
-AZ EURÓPAI PARLAMENT ÉS A TANÁCS 1169/2011/EU RENDELETE (2011. október 25.)
-A természetes személyeknek a személyes adatok kezelése tekintetében történo
-védelmérol és az ilyen adatok szabad áramlásáról, valamint a 95/46/EK rendelet hatályon
-kívül helyezésérol (általános adatvédelmi rendelet) AZ EURÓPAI PARLAMENT ÉS A TANÁCS
-(EU) 2016/679 RENDELETE (2016. április 27.)
-– 2011. évi CXII. törvény – az információs önrendelkezési jogról és az információszabadságról
-(a továbbiakban: Infotv.)
-– 2001. évi CVIII. törvény – az elektronikus kereskedelmi szolgáltatások, valamint az
-információs társadalommal összefüggo szolgáltatások egyes kérdéseirol (foképp a 13/A. §-
+4.: KapcsolÃ³dÃ³ pÃ¡lyÃ¡zatok, tÃ¶rvÃ©nyek, rendeletek, szabÃ¡lyok Ã©s szabvÃ¡nyok.
+2016. Ã©vi XCIII. tÃ¶rvÃ©ny a szerzoi jogok Ã©s a szerzoi joghoz kapcsolÃ³dÃ³ jogok kÃ¶zÃ¶s kezelÃ©sÃ©rol
+1997. Ã©vi CLV. tÃ¶rvÃ©ny a fogyasztÃ³vÃ©delemrol
+1999. Ã©vi LXXVI. tÃ¶rvÃ©ny a szerzoi jogrÃ³l
+210/2009. (IX. 29.) Korm. rendelet a kereskedelmi tevÃ©kenysÃ©gek vÃ©gzÃ©sÃ©nek feltÃ©teleirol
+AZ EURÃ“PAI PARLAMENT Ã‰S A TANÃCS 1169/2011/EU RENDELETE (2011. oktÃ³ber 25.)
+A termÃ©szetes szemÃ©lyeknek a szemÃ©lyes adatok kezelÃ©se tekintetÃ©ben tÃ¶rtÃ©no
+vÃ©delmÃ©rol Ã©s az ilyen adatok szabad Ã¡ramlÃ¡sÃ¡rÃ³l, valamint a 95/46/EK rendelet hatÃ¡lyon
+kÃ­vÃ¼l helyezÃ©sÃ©rol (Ã¡ltalÃ¡nos adatvÃ©delmi rendelet) AZ EURÃ“PAI PARLAMENT Ã‰S A TANÃCS
+(EU) 2016/679 RENDELETE (2016. Ã¡prilis 27.)
+â€“ 2011. Ã©vi CXII. tÃ¶rvÃ©ny â€“ az informÃ¡ciÃ³s Ã¶nrendelkezÃ©si jogrÃ³l Ã©s az informÃ¡ciÃ³szabadsÃ¡grÃ³l
+(a tovÃ¡bbiakban: Infotv.)
+â€“ 2001. Ã©vi CVIII. tÃ¶rvÃ©ny â€“ az elektronikus kereskedelmi szolgÃ¡ltatÃ¡sok, valamint az
+informÃ¡ciÃ³s tÃ¡rsadalommal Ã¶sszefÃ¼ggo szolgÃ¡ltatÃ¡sok egyes kÃ©rdÃ©seirol (fokÃ©pp a 13/A. Â§-
 a)
-– 2008. évi XLVII. törvény – a fogyasztókkal szembeni tisztességtelen kereskedelmi gyakorlat
-tilalmáról;
-– 2008. évi XLVIII. törvény – a gazdasági reklámtevékenység alapveto feltételeirol és egyes
-korlátairól (különösen a 6.§-a)
-– 2005. évi XC. törvény az elektronikus információszabadságról
-– 2003. évi C. törvény az elektronikus hírközlésrol (kifejezetten a 155.§-a)
-– 16/2011. sz. vélemény a viselkedésalapú online reklám bevált gyakorlatára vonatkozó
-EASA/IAB-ajánlásról
+â€“ 2008. Ã©vi XLVII. tÃ¶rvÃ©ny â€“ a fogyasztÃ³kkal szembeni tisztessÃ©gtelen kereskedelmi gyakorlat
+tilalmÃ¡rÃ³l;
+â€“ 2008. Ã©vi XLVIII. tÃ¶rvÃ©ny â€“ a gazdasÃ¡gi reklÃ¡mtevÃ©kenysÃ©g alapveto feltÃ©teleirol Ã©s egyes
+korlÃ¡tairÃ³l (kÃ¼lÃ¶nÃ¶sen a 6.Â§-a)
+â€“ 2005. Ã©vi XC. tÃ¶rvÃ©ny az elektronikus informÃ¡ciÃ³szabadsÃ¡grÃ³l
+â€“ 2003. Ã©vi C. tÃ¶rvÃ©ny az elektronikus hÃ­rkÃ¶zlÃ©srol (kifejezetten a 155.Â§-a)
+â€“ 16/2011. sz. vÃ©lemÃ©ny a viselkedÃ©salapÃº online reklÃ¡m bevÃ¡lt gyakorlatÃ¡ra vonatkozÃ³
+EASA/IAB-ajÃ¡nlÃ¡srÃ³l
 
-7.: Követelménylista
-Tárolandó adatok az oldalon regisztráltakról: Név, cím, telefonszám + annak azonosítása
-Legyen feltuntetve, hogy a boltban lehetoség van euróval is fizetni kiszállításnál viszont csak forinttal vagy elore jelezve bankkártyával, valamint lehetové tenni egyéb fizetési módokat.
-Az oldalon megtalálható kell legyen egy étlap amely frissítheto a cég részérol valamint jelezze a cégnek, hogy ha elfogyott egy adott étel.
-Az oldalnak tudnia kell statisztikát készítenie a helyben fogyaszott illetve a kizsálított ételekrol, nyomonkövetni a havi kiadásokat és bevételeket valamint azt letölthetové tenni lehetoleg pdf formátumba. Hasonló képen egy éves statisztika és egy napi statisztika amely az admin felületen elérheto. A statisztika szigorúan névtelen kell legyen!
-Szükség van egy nyilvántartásra a felhasználók rendelésérol valamint az adott felhasználó ízlésének megfelelo ajánlatokat kapjon és 10 ezer forint után a következo 1 hónapban 10% kedvezményt kapjon.
-Jogosultások: Boltvezeto: Teljes jogosultság, az oldalon található adatok változtatása valamint a dolgozók státuszának és adatainak módosítása. 
-	      Admin: Kizárólag az oldalon található adatok módosítása.
+7.: KÃ¶vetelmÃ©nylista
+
+TÃ¡rolandÃ³ adatok az oldalon regisztrÃ¡ltakrÃ³l: NÃ©v, cÃ­m, telefonszÃ¡m + annak azonosÃ­tÃ¡sa
+Legyen feltuntetve, hogy a boltban lehetosÃ©g van eurÃ³val is fizetni kiszÃ¡llÃ­tÃ¡snÃ¡l viszont csak forinttal vagy elore jelezve bankkÃ¡rtyÃ¡val, valamint lehetovÃ© tenni egyÃ©b fizetÃ©si mÃ³dokat.
+Az oldalon megtalÃ¡lhatÃ³ kell legyen egy Ã©tlap amely frissÃ­theto a cÃ©g rÃ©szÃ©rol valamint jelezze a cÃ©gnek, hogy ha elfogyott egy adott Ã©tel.
+Az oldalnak tudnia kell statisztikÃ¡t kÃ©szÃ­tenie a helyben fogyaszott illetve a kizsÃ¡lÃ­tott Ã©telekrol, nyomonkÃ¶vetni a havi kiadÃ¡sokat Ã©s bevÃ©teleket valamint azt letÃ¶lthetovÃ© tenni lehetoleg pdf formÃ¡tumba. HasonlÃ³ kÃ©pen egy Ã©ves statisztika Ã©s egy napi statisztika amely az admin felÃ¼leten elÃ©rheto. A statisztika szigorÃºan nÃ©vtelen kell legyen!
+SzÃ¼ksÃ©g van egy nyilvÃ¡ntartÃ¡sra a felhasznÃ¡lÃ³k rendelÃ©sÃ©rol valamint az adott felhasznÃ¡lÃ³ Ã­zlÃ©sÃ©nek megfelelo ajÃ¡nlatokat kapjon Ã©s 10 ezer forint utÃ¡n a kÃ¶vetkezo 1 hÃ³napban 10% kedvezmÃ©nyt kapjon.
+JogosultÃ¡sok: Boltvezeto: Teljes jogosultsÃ¡g, az oldalon talÃ¡lhatÃ³ adatok vÃ¡ltoztatÃ¡sa valamint a dolgozÃ³k stÃ¡tuszÃ¡nak Ã©s adatainak mÃ³dosÃ­tÃ¡sa. 
+	      Admin: KizÃ¡rÃ³lag az oldalon talÃ¡lhatÃ³ adatok mÃ³dosÃ­tÃ¡sa.
