@@ -18,11 +18,9 @@
 	A honlap nyitóoldalán ki lehet választani, hogy vendég,
 	vagy alkalmazott szeretnénk belépni a rendszerbe. (Ez minden esetben regisztrációhoz kötött.)
 	A felhasználónak meg kell adnia a: 
-	```
 		- Nevét
 		- Címét
 		- Telefonszámát
-	```
 	A vendégek tudnak házhoz rendelni a weboldalon keresztül. Kiválasztják az elérhető ételek közül,
 	hogy mit szeretnének rendelni, milyen címre, mikorra és a fizetési módot
 	(bankkártyával vagy készpénzzel fizetne -forintban.)
