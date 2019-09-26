@@ -3,7 +3,8 @@
 	Jelenleg papír alapon múködik az egész rendszer.
 	Ha valaki rendelni szeretne a pizzériából, azt csak telefonon teheti meg,
 	és csak ott kaphat információt a választékból, vagy ha van otthon szórólapja.
-	Ebből adódóan a vásárló azt sem tudhatja, hogy rendelkezik-e a cég az adott étellel, csak ha felhívja az éttermet és rákérdez.
+	Ebből adódóan a vásárló azt sem tudhatja, hogy rendelkezik-e a cég az adott étellel,
+	csak ha felhívja az éttermet és rákérdez.
 	A szakácsoknak sincs rendszerezve a munkájuk, nem tudják számon tartani miből vannak éppen kifogyóban.
 	Nem megoldható jelenleg, hogy statisztikát vezessen a legjobban- illetve legkevésbé fogyó ételeikről.
 	A vásárlókat nem tudják számon tartani, így nem adhatnak törzsvásárlói kedvezményt sem.
@@ -22,14 +23,19 @@
 		- Címét
 		- Telefonszámát
 	```
-	A vendégek tudnak házhoz rendelni a weboldalon keresztül. Kiválasztják az elérhető ételek közül, hogy mit szeretnének rendelni,
-	milyen címre, mikorra és a fizetési módot (bankkártyával vagy készpénzzel fizetne -forintban.)
-	Így, hogy a vendégeknek lenne saját fiókjuk, számon lehet tartani őket (Aki legalább 10 000 forintért rendel az a következő 		hónapra 10% kedvezményt kap.)
+	A vendégek tudnak házhoz rendelni a weboldalon keresztül. Kiválasztják az elérhető ételek közül,
+	hogy mit szeretnének rendelni, milyen címre, mikorra és a fizetési módot
+	(bankkártyával vagy készpénzzel fizetne -forintban.)
+	Így, hogy a vendégeknek lenne saját fiókjuk, számon lehet tartani őket
+	(Aki legalább 10 000 forintért rendel az a következő hónapra 10% kedvezményt kap.)
 	Az étteremben az online felületen lehetne leadni a rendeléseket ami javítana a várakozási időn.
-		Kijelölni az elérhető ételek közül mit szeretne rendelni a vendég, milyen módon szeretne fizetni (euró-forint-			bankkártya).
+		Kijelölni az elérhető ételek közül mit szeretne rendelni a vendég,
+		milyen módon szeretne fizetni (euró-forint-bankkártya).
 	Az alkalmazotti felületen nyilván lehet tartani az ételeket, azok hozzávalóit.
-	Statisztikát lehet vezetni arról, milyen ételeket milyen gyakran fogyasztanak a vásárlók, ki mennyit költ a pizzériában.
-	Számon lehet tartani, melyik alkalmazott mennyit dolgozott az adott hónapban, majd ez alapján kiszámolni a fizetését.
+	Statisztikát lehet vezetni arról, milyen ételeket milyen gyakran fogyasztanak a vásárlók,
+	ki mennyit költ a pizzériában.
+	Számon lehet tartani, melyik alkalmazott mennyit dolgozott az adott hónapban,
+	majd ez alapján kiszámolni a fizetését.
 	Admin felületen napi/éves statisztika, kimutatások.  
 	
 	
