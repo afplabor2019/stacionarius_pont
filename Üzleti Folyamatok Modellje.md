@@ -1,4 +1,4 @@
-# 5. Jelenlegi üzleti folyamatok modellje:
+## 5. Jelenlegi üzleti folyamatok modellje:
 
 	Jelenleg papír alapon múködik az egész rendszer.
 	Ha valaki rendelni szeretne a pizzériából, azt csak telefonon teheti meg,
@@ -13,7 +13,7 @@
 	A futárok papírcetlin kapják meg a címeket, hogy hova kell menniük,
 	illetve hogy mit kell kiszállítani, ebből már volt kavarodás korábban.
 
-# 6. Igényelt üzleti folyamatok modellje:
+## 6. Igényelt üzleti folyamatok modellje:
 
 	A honlap nyitóoldalán ki lehet választani, hogy vendég,
 	vagy alkalmazott szeretnénk belépni a rendszerbe. (Ez minden esetben regisztrációhoz kötött.)
