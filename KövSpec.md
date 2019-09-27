@@ -1,5 +1,3 @@
-Projekt 1 - Pizza
-
 ## 1.Vezetői összefoglaló 
 
   A StacionáriusPont nevű csapat feladata, egy olyan alkalmazás fejlesztése, mellyel egy pizzázó mindennapjai vállnak könnyebbé és          gördülékenyebbé. Az alkalmazás feladatai közé tartoznak a rendelések, illetve vevők nyilvántartása és kezelése, statisztikák elkészítése a  megrendelő elvárásainak megfelelően. Mivel szolgáltatást nyújtanak így érthető módon a megrendelő nem szeretne lemaradni a versenytársaitól. A vállalkozás dinamikusan fejlődik ezért várhatóan az alkalmazás átadását követően további igények fognak felmerülni. Az elvárásokat és a megvalósítandó feladatokat figyelembe véve a projektet HTML, CSS illetve JavaScrtipt technológiák segítségével kívánjuk megvalósítani.
