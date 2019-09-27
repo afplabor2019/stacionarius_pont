@@ -1,4 +1,4 @@
-﻿###3. Vágyálomrendszer
+﻿### 3. Vágyálomrendszer
 Számos interjú után sikerült közelebbről is megismerni a megrendelőt és az igényeit. Az elkészülő szoftver az általa működtetett pizzázó mindennapjaiban hivatott segíteni. A fejlesztés során remélhetőleg sikerül a megrendelő minden igényét kielégíteni a kor informatikai lehetőségeinek segítségével. Ezen felül a későbbi fejlődést támogatva úgy alakítjuk ki szoftvereinket, hogy a jövőben különösebb akadály nélkül folyhasson a fejlesztés.
 
 A Megrendelő jelenleg 2 Pizzázóval rendelkezik Eger városán belül. A vállalkozás folyamatos fejlődése tapasztalható, így várhatóan újabb éttermeket nyithat újabb szolgáltatásokkal. Így elsősorban a legnagyobb elvárása a szoftverrel kapcsolatban, hogy ne csak az egyes éttermeket lehessen külön kezelni, hanem az egyes városok elszeparálására is lehetősége legyen a programon belül.
