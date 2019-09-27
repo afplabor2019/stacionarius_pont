@@ -1,4 +1,4 @@
-﻿###Rendszer terv
+### Rendszer terv
 ## 1.Bevezetés
 A projekt célja egy olyan webes alkalmazás létrehozása, ahol a pizzázó tulaja kap egy áttekintést az üzletben éppen folyó dolgokról, mint például az akutális rendelések, jelenlegi dolgozók. Továbbá különböző statisztikák készitése, hozzávalók mennyiségének számontartása. Ezzel az alkalmazással a pizzázó mindennapjai jelentősen megkönyebbülnek, áttekinthetőbbek lesznek az aktuális ügyek, valamint egy modern technológiákon alapuló, megbizható rendszer összes előnyét élvezhetik az alkalmazás használói.
 
