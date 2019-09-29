@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Georgia, 'Times New Roman', Georgia, serif;
+}
+
+body{ 
+    width: 100%;
+    height: 100px;
+    background-image: url(imgs/Pizza.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.form{
+    padding: 20px;
+}
+
+.card{
+    margin: auto;
+    margin-top: 100px;
+    width: 700px;
+
+    border-radius: 15px;
+    border: 1px outset #ffffff;
+    background: rgba(1, 1, 1, 0.500);
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.cardheader{
+    font-size: 16px;
+    margin: auto;
+}
+
+header {
+    overflow: hidden;
+    padding: 10px 10px;
+    background-color: rgba(0, 0, 0, 0.500);
+    color: #7ea3ff;
+    box-shadow: 0px 8px 5px rgba(0, 0, 0, 0.178)
+}
+
+header a.hname{
+    margin-top: 0;
+    font-size: 25px;
+    font-weight: bold;
+}
+            
+
+h1, h2{
+    letter-spacing: 3px;
+    font-size: 24px; 
+    font-style: italic; 
+    text-decoration: underline;
+}
+
+h3{
+    margin-top:0;
+    letter-spacing: 0;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+nav {
+    float: right;
+}
+
+
+.formgroup{
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+.formgroup label{
+    display: inline-block;
+    margin-bottom: 5px;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.formgroup input[type=password],
+.formgroup input[type=number],
+.formgroup input[type=text],
+.formgroup input[type=email]{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 2px solid rgba(12, 12, 11, 0.473);
+}
+
+.submitbtn{
+    padding: 10px;
+    text-align: center;
+}
+
+.submitbtn:hover{
+    transform: scale(1.1)
+}
+
+.btn{
+    padding: 10px;
+    text-align: center;
+}
+
+.btn:hover{
+    transform: scale(1.1)
+}
+
+.star{
+    display: inline-block;
+    color: red;
+}
+
+footer{
+    width: 100%;
+    overflow: hidden;
+    background: #2E2A2A;
+    margin-top: auto;
+    position: absolute;
+}
+
+.smb{
+    padding: 30px;
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.smb:hover{
+    opacity: 0.7;
+}
+
+.logo img{
+    float: left;
+    width: 70px;
+}
+
+.clearfix::after{
+    content: "";
+    clear: both;
+}
