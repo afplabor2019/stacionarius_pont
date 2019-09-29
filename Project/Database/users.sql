@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Gép: 127.0.0.1:3306
--- Létrehozás ideje: 2019. Sze 29. 10:56
+-- Létrehozás ideje: 2019. Sze 29. 14:49
 -- Kiszolgáló verziója: 5.7.26
 -- PHP verzió: 7.2.18
 
@@ -46,7 +46,18 @@ INSERT INTO `user` (`FullName`, `Phone`, `Email`, `Password`) VALUES
 ('Donald Duck', '123456789', 'donald.duck@gmail.com', 'a8f5f167f44f4964e6c998dee827110c'),
 ('Szondi MÃ¡tÃ©', '06206664422', 'szondiazazel@gmail.com', 'a8f5f167f44f4964e6c998dee827110c'),
 ('Teszt Teszti', '06123456789', 'asd@asd.com', 'a8f5f167f44f4964e6c998dee827110c'),
-('Asd asd', '987654321', 'asdasd@gmail.com', 'a8f5f167f44f4964e6c998dee827110c');
+('Asd asd', '987654321', 'asdasd@gmail.com', 'a8f5f167f44f4964e6c998dee827110c'),
+('Kukor Ica', '06111111111', 'kukorica@freemail.hu', 'a8f5f167f44f4964e6c998dee827110c'),
+('Teszt Elek', '06222222222', 'tesztelek@gmail.com', 'a8f5f167f44f4964e6c998dee827110c'),
+('Mezei Virag', '06333333333', 'mezeivirag@citromail.hu', 'a8f5f167f44f4964e6c998dee827110c'),
+('Vincs Eszter', '06444444444', 'vincseszter@gmail.com', 'a8f5f167f44f4964e6c998dee827110c'),
+('asddsa', '123', 'asdds@a', 'a8f5f167f44f4964e6c998dee827110c'),
+('dsadf', '3213', 'asdw@a', 'a8f5f167f44f4964e6c998dee827110c'),
+('Disz NÃ³ra', '06555555555', 'dinsznora@gmail.com', 'a8f5f167f44f4964e6c998dee827110c'),
+('Eszet Lenke', '06666666666', 'eszetlenke@gmail.com', 'a8f5f167f44f4964e6c998dee827110c'),
+('dasd', '24', 'dsda@a', 'a8f5f167f44f4964e6c998dee827110c'),
+('s', '1234', 'asd@as', 'a8f5f167f44f4964e6c998dee827110c'),
+('dsasd', '31241', 'asda@asdf', 'a8f5f167f44f4964e6c998dee827110c');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

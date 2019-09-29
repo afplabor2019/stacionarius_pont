@@ -48,11 +48,11 @@ if (isset($_POST['Register'])) {
   	$query = "INSERT INTO user (FullName, Phone, Email, Password) VALUES ('$FullName', '$Phone', '$Email', '$Passwordmd')";
   	mysqli_query($db, $query);
 	
-	$_SESSION['Email'] = $Email;
-	$_SESSION['Phone'] = $Phone;
-  	$_SESSION['FullName'] = $FullName;
-  	$_SESSION['success'] = "You are now logged in";
-	header('location: homeIn.php');
+	//$_SESSION['Email'] = $Email;
+	//$_SESSION['Phone'] = $Phone;
+  	//$_SESSION['FullName'] = $FullName;
+  	$_SESSION['registered'] = "Succesfully registered!";
+	header('location: login.php');
   }
 }
 
@@ -83,8 +83,8 @@ if (isset($_POST['Login'])) {
 			$_SESSION['Phone'] = $temp["Phone"];
 			$_SESSION['FullName'] = $temp["FullName"];
 			$_SESSION['Email'] = $loginEmail;
-			$_SESSION['success'] = "You are now logged in";
-			header('location: homeIn.php');
+			$_SESSION['loggedin'] = "You are now logged in";
+			header('location: home.php');
   	}else {
   		array_push($errors, "Wrong email/password combination!");
   	}

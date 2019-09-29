@@ -8,7 +8,7 @@
 body{ 
     width: 100%;
     height: 100px;
-    background-image: url(imgs/Pizza.jpg);
+    background-image: url(../imgs/Pizza.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;

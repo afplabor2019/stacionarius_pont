@@ -3,30 +3,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Register</title>
+    <title>Login</title>
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="CSS/login.css">
-    <link rel="stylesheet" type="text/css" href="web.css">
+	<link rel="stylesheet" type="text/css" href="CSS/menu.css">
+    <link rel="stylesheet" type="text/css" href="CSS/web.css">
 </head>
 <body>
+
     <header>	
         <section class="logo">
             <img src="imgs/pizzalogo.png" alt="Logo">
         </section>
         <nav>
-            <a class="btn1" href="home.php">Home</a>
-            <a class="btn2" href="login.php">Login</a>
-            <a class="btn3" href="information.html">Information</a>
+            <a class="nonfocused" href="home.php">Home</a>
+            <a class="focused" href="login.php">Login</a>
         </nav>
     </header>
-
-
+	
         <div class="card">
+			<?php if (isset($_SESSION['registered'])) : ?>
+			  <div style="color:red; text-align: center; text-decoration-color: orange" >
+				<h3>
+				  <?php 
+					echo $_SESSION['registered']; 
+					unset($_SESSION['registered']);
+				  ?>
+				</h3>
+			  </div>
+			<?php endif ?>
+
             <h1 style="color: #ffffff; text-align: center; text-decoration-color: orange">Login</h1>
             <div class="form">
 				<?php include('errors.php'); ?>
@@ -50,6 +60,11 @@
 					    <?php if(isset($msg)){?>
 						  <p><?php echo $msg;?></p>
 						<?php } ?>
+                    <div class="login">
+						<p style="color: white">Not registered yet?</p>
+                        <a href="register.php" >Click here</a>
+                    </div>
+
                 </form>
             </div>
 		</div> 

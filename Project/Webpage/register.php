@@ -10,7 +10,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
 	<link rel="stylesheet" type="text/css" href="CSS/register.css">
-    <link rel="stylesheet" type="text/css" href="web.css">
+    <link rel="stylesheet" type="text/css" href="CSS/web.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
@@ -21,7 +21,6 @@
         <nav>
             <a class="btn1" href="home.php">Home</a>
             <a class="btn2" href="register.php">Register</a>
-            <a class="btn3" href="information.html">Information</a>
         </nav>
     </header>
 
@@ -62,11 +61,6 @@
                         <button style="border: 2px solid orange; height: 40px; width: 80px; background-color: white;
                         font-size: 20px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: black;
                         text-decoration: underline" name="Register" type="submit">Register</button>
-                    </div>
-
-                    <div class="loginlink">
-                        <a href="login.php" style="color: orange; text-decoration: none; font-size: 20px;
-                        font-style:oblique">I already have an account</a>
                     </div>
                 </form>
             </div>
