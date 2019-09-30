@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Gép: 127.0.0.1:3306
--- Létrehozás ideje: 2019. Sze 30. 02:46
+-- Létrehozás ideje: 2019. Sze 30. 10:53
 -- Kiszolgáló verziója: 5.7.26
 -- PHP verzió: 7.2.18
 
@@ -19,7 +19,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Adatbázis: `users`
+-- Adatbázis: `pizzeria`
 --
 
 -- --------------------------------------------------------
@@ -40,7 +40,7 @@ CREATE TABLE IF NOT EXISTS `incart` (
   `Message` varchar(1000) COLLATE utf8_hungarian_ci NOT NULL,
   `Price` int(10) NOT NULL,
   PRIMARY KEY (`IncartId`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_hungarian_ci;
+) ENGINE=MyISAM AUTO_INCREMENT=3 DEFAULT CHARSET=utf8 COLLATE=utf8_hungarian_ci;
 
 -- --------------------------------------------------------
 
@@ -60,7 +60,14 @@ CREATE TABLE IF NOT EXISTS `orders` (
   `Message` varchar(1000) COLLATE utf8_hungarian_ci DEFAULT NULL,
   `Price` int(100) NOT NULL,
   PRIMARY KEY (`OrderId`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_hungarian_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8 COLLATE=utf8_hungarian_ci;
+
+--
+-- A tábla adatainak kiíratása `orders`
+--
+
+INSERT INTO `orders` (`OrderId`, `UserId`, `PizzaType`, `Size`, `PizzaAmount`, `Topping`, `Address`, `Message`, `Price`) VALUES
+(1, 4, 'Margarita', '48cm', 5, 'Cheese Ham Corn ', 'Leanyka utca 7', '', 15000);
 
 -- --------------------------------------------------------
 
@@ -140,7 +147,8 @@ CREATE TABLE IF NOT EXISTS `user` (
 INSERT INTO `user` (`UserId`, `FullName`, `Phone`, `Email`, `Password`) VALUES
 (1, 'Szondi Mate', '06706666666', 'szondimate@gmail.com', 'a8f5f167f44f4964e6c998dee827110c'),
 (2, 'Teszt Elek', '061', 'tesztelek@gmail.com', 'a8f5f167f44f4964e6c998dee827110c'),
-(3, 'Vincs Eszter', '062', 'vincseszter@gmail.com', 'a8f5f167f44f4964e6c998dee827110c');
+(3, 'Vincs Eszter', '062', 'vincseszter@gmail.com', 'a8f5f167f44f4964e6c998dee827110c'),
+(4, 'Gipsz Jakab', '06201111111', 'gipszjakab@gmail.com', 'a8f5f167f44f4964e6c998dee827110c');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
