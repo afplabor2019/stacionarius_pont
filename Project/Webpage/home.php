@@ -5,6 +5,7 @@
   	unset($_SESSION['FullName']);
   	unset($_SESSION['Email']);
   	unset($_SESSION['Phone']);
+	unset($_SESSION['UserId']);
 	unset($_SESSION['loggedin']);
   	header("location: home.php");
   }
@@ -35,8 +36,13 @@
 				<a class="focused" href="home.php">Home</a>
 				<a class="nonfocused" href="login.php">Login</a>
 			<?php endif ?>
-
         </nav>
     </header>
+	<div style="background-color: white; margin: 10%; opacity: 0.5">
+		<p>
+		Üdvözöljük pizzériánk weboldalán!
+		</p>
+		<br />
+	</div>
 </body>
 </html>

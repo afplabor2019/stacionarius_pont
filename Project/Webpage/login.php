@@ -37,7 +37,7 @@
 			  </div>
 			<?php endif ?>
 
-            <h1 style="color: #ffffff; text-align: center; text-decoration-color: orange">Login</h1>
+            <h1>Login</h1>
             <div class="form">
 				<?php include('errors.php'); ?>
                 <form action="login.php" method="POST">
@@ -64,7 +64,6 @@
 						<p style="color: white">Not registered yet?</p>
                         <a href="register.php" >Click here</a>
                     </div>
-
                 </form>
             </div>
 		</div> 

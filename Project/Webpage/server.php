@@ -10,7 +10,7 @@ $errors = array();
 // connect to the database
 $db = mysqli_connect('localhost', 'root', '', 'users');
 
-// REGISTER USER
+////////////////////////////////////////////////////////////////////////// REGISTER USER/////////////////////////////////////////////////////
 if (isset($_POST['Register'])) {
   // receive all input values from the form
   $FullName = mysqli_real_escape_string($db, $_POST['fullname']);
@@ -57,7 +57,7 @@ if (isset($_POST['Register'])) {
 }
 
 
-//////////////////////////LOGIN
+////////////////////////////////////////////////////////////////////////////////////LOGIN/////////////////////////////////////////////////
 
 if (isset($_POST['Login'])) {
   $loginEmail = mysqli_real_escape_string($db, $_POST['loginEmail']);
@@ -76,10 +76,11 @@ if (isset($_POST['Login'])) {
 		$results = mysqli_query($db, $query);
 		if (mysqli_num_rows($results) == 1) {
 			
-			$sql = "SELECT FullName, Phone FROM user WHERE Email='$loginEmail'";
+			$sql = "SELECT FullName, Phone, UserId FROM user WHERE Email='$loginEmail'";
 			$result = $db->query($sql);
 			$temp = $result->fetch_assoc();
 			
+			$_SESSION['UserId'] = $temp["UserId"];
 			$_SESSION['Phone'] = $temp["Phone"];
 			$_SESSION['FullName'] = $temp["FullName"];
 			$_SESSION['Email'] = $loginEmail;
@@ -90,5 +91,105 @@ if (isset($_POST['Login'])) {
   	}
   }
 }
+
+///////////////////////////////////////////////////////////////////////////////////ORDER///////////////////////////////////////////////////////////////////
+
+  if(isset($_POST['Order'])){
+	
+	$UserId = $_SESSION['UserId'];
+	
+	$sql = "SELECT * FROM incart WHERE UserId = '$UserId'";
+	$result = $db->query($sql);
+  if ($result->num_rows > 0){
+		while($row = $result->fetch_assoc()) {
+			$UserId = $row["UserId"];
+			$PizzaType = $row["PizzaType"];
+			$Size = $row["Size"];
+			$Amount = $row["PizzaAmount"];
+			$Topping = $row["Topping"];
+			$Address = $row["Address"];
+			$Message = $row["Message"];
+			$Price = $row["Price"];
+			$sql2 = "INSERT INTO orders (UserId, PizzaType, Size, PizzaAmount, Topping, Address, Message, Price) VALUES ('$UserId', '$PizzaType', '$Size', '$Amount', '$Topping', '$Address', '$Message', '$Price')";
+			mysqli_query($db, $sql2);
+			}
+			
+		$query = "DELETE FROM incart WHERE UserId = '$UserId'";
+		mysqli_query($db, $query);
+			
+		header('location: home.php');
+  }
+  else{
+	array_push($errors, "First fill the cart!");
+  }
+  }
+  
+///////////////////////////////////////////////////////////////////////////////////CART///////////////////////////////////////////////////////////////////
+
+  if(isset($_POST['Cart'])){
+	$PizzaType = mysqli_real_escape_string($db, $_POST['pizzaType']);
+	$Size = mysqli_real_escape_string($db, $_POST['Size']);
+	$Amount = mysqli_real_escape_string($db, $_POST['Amount']);
+	isset($_POST['Topping']) ? $Toppings = $_POST['Topping'] : '';
+	$Address = mysqli_real_escape_string($db, $_POST['Address']);
+	$Message = mysqli_real_escape_string($db, $_POST['Message']);
+	$Phone = $_SESSION['Phone'];
+	$UserId = $_SESSION['UserId'];
+	$TempPrice = 0;
+	
+	if(isset($_POST['Topping'])){
+		$sql = "SELECT * FROM toppings";
+		$result = $db->query($sql);
+		while($row = $result->fetch_assoc()) {
+			$Topp = $row["Topping"];
+			$ToppPrice= $row["Price"];
+			for($i = 0; $i<count($Toppings); $i++){
+				if($Topp == $Toppings[$i]){
+					$TempPrice += $ToppPrice;
+				}
+			}
+		}
+	}
+
+	
+	
+	
+	$Topping = "";	
+    if(isset($Toppings)){
+	foreach($Toppings as $top){
+		$Topping .= $top." ";
+	}
+  }
+	if ($PizzaType=="") { array_push($errors, "You must choose the pizza type!"); }
+	if (empty($Amount)) { array_push($errors, "Amount is required!"); }
+	if (empty($Address)) { array_push($errors, "Address is required"); }
+	
+	$sql = "SELECT Price FROM pizzas WHERE PizzaType='$PizzaType' AND Size='$Size'";
+	$result = $db->query($sql);
+	$temp = $result->fetch_assoc();
+	$Price = $temp["Price"];
+		
+
+	
+	if(count($errors) == 0){
+		$Price += $TempPrice;
+		$Price *= $Amount;
+		$query = "INSERT INTO incart (UserId, PizzaType, Size, PizzaAmount, Topping, Address, Message, Price) VALUES ('$UserId', '$PizzaType', '$Size', '$Amount', '$Topping', '$Address', '$Message', '$Price')";
+		mysqli_query($db, $query);
+
+		header('location: order.php');
+	}
+	  
+	  
+  }
+  
+///////////////////////////////////////////////////////////////////////////////////CANCEL///////////////////////////////////////////////////////////////////
+  
+  if(isset($_POST['Cancel'])){
+	  
+		$UserId = $_SESSION["UserId"];
+	  	$sql = "DELETE FROM incart WHERE UserId = '$UserId'";
+		mysqli_query($db, $sql);
+  }
 
 ?>
