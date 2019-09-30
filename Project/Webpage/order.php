@@ -49,7 +49,7 @@
 						</tr>
 						<tr>
 							<td>
-								<label>*Pizza type:</label>
+								<label for="pizzaType">*Pizza type:</label>
 							</td>
 							<td>
 							<select name="pizzaType" id="pizzaType">
@@ -65,7 +65,7 @@
 						</tr>
 						<tr>
 							<td>
-								<label>*Size:</label>
+								<label for="Size">*Size:</label>
 							</td>
 							<td>
 								<input type="radio" name="Size" value="32cm" checked>32cm<br />
@@ -81,7 +81,7 @@
 						</tr>
 						<tr>
 							<td>
-								<label>*Amount:</label>
+								<label for="Amount">*Amount:</label>
 							</td>
 							<td>
 								<input type="number" name="Amount" min="1" max="20">
@@ -95,7 +95,7 @@
 						</tr>
 						<tr>
 							<td>
-								<label>Plus Topping:</label>
+								<label for="Topping[]">Plus Topping:</label>
 							</td>
 							<td>
 								<input type="checkbox" name="Topping[]" value="Cheese">Cheese (200 Ft)<br />
@@ -112,7 +112,7 @@
 						</tr>					
 						<tr>
 							<td>
-								<label>*Address:</label>
+								<label for="Address">*Address:</label>
 							</td>
 							<td>
 								<input type="text" name="Address">
@@ -120,7 +120,7 @@
 						</tr>
 						<tr>
 							<td>
-								<label>Message:</label>
+								<label for="Message">Message:</label>
 							</td>
 							<td>
 								  <textarea name="Message" rows="5" cols="30" placeholder="Enter message here..."></textarea>

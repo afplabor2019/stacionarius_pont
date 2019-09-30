@@ -8,7 +8,7 @@ $Phone		= "";
 $errors = array(); 
 
 // connect to the database
-$db = mysqli_connect('localhost', 'root', '', 'users');
+$db = mysqli_connect('localhost', 'root', '', 'pizzeria');
 
 ////////////////////////////////////////////////////////////////////////// REGISTER USER/////////////////////////////////////////////////////
 if (isset($_POST['Register'])) {

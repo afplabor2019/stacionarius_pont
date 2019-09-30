@@ -38,11 +38,19 @@
 			<?php endif ?>
         </nav>
     </header>
-	<div style="background-color: white; margin: 10%; opacity: 0.5">
-		<p>
-		Üdvözöljük pizzériánk weboldalán!
-		</p>
-		<br />
-	</div>
+		<main >
+			<h1>
+			Üdvözöljük pizzériánk weboldalán!
+			</h1>
+			<br />
+			<?php if (isset($_SESSION['loggedin'])) : ?>
+				<p style="background-color: #ffe6cc; display: inline-block; opacity: 0.7; border-radius: 30px;font-size: 24px; font-style: italic; letter-spacing: 2px; padding: 20px; text-align: center">
+				Az "Order" menün belül tud házhoz rendelni pizzát.</p>
+			<?php else : ?>
+				<p style="background-color: #ffe6cc; display: inline-block; opacity: 0.7; border-radius: 30px;font-size: 24px; font-style: italic; letter-spacing: 2px; padding: 20px; text-align: center">
+				Amennyiben még nem regisztrált, azt a "Login" menü alatt teheti meg, majd ha belépett rendelheti is a pizzát.</p>
+			
+			<?php endif ?>
+		</main>
 </body>
 </html>
